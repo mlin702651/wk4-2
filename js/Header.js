@@ -16,14 +16,13 @@ const Header = () => {
 const styles = StyleSheet.create({
   viewStyle: {
     backgroundColor:'#00b49f',
-    height:56,
-    width:360,
+    width:410,
     flexDirection:'row',
-    
-    
+    paddingTop:50,
+    justifyContent:'space-between',
+    flex: 0.25,
+    fontFamily:'Roboto-Medium',
 
-
-    
   },
   textStyle:{
       fontSize:20,
@@ -32,7 +31,6 @@ const styles = StyleSheet.create({
   navbar:{
     height:40,
     width:40,
-   
   },
   search:{
     height:40,
