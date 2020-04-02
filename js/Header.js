@@ -4,37 +4,38 @@ import { StyleSheet, Text, View ,Image} from 'react-native';
 const Header = () => {
   return (
     <View style={styles.viewStyle}>
-        <Image style={styles.navbar} source={{uri:'https://cdn.zeplin.io/5e6edfd117dbf813ddad315b/assets/0C4B3F2A-BEAF-40EC-B944-3E7CD256A251.svg'}}/>
-        <Text style={styles.textStyle}>
-            My Book
-        </Text>
-        <Image style={styles.search} source={{uri:'https://cdn.zeplin.io/5e6edfd117dbf813ddad315b/assets/D8D334F5-AE95-43AA-93D5-C728A255E49E.svg'}}/>
+        <Image style={styles.navbar} source={require('./img/btn_navbar_mobile.png')}/>
+        <Text style={styles.textStyle}>My Book</Text>
+        <Image style={styles.search} source={require('./img/btn_search.png')}/>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   viewStyle: {
-    backgroundColor:'#00b49f',
-    width:410,
+    alignItems: 'center',
+    justifyContent: 'space-around',
     flexDirection:'row',
-    paddingTop:50,
-    justifyContent:'space-between',
-    flex: 0.25,
-    fontFamily:'Roboto-Medium',
-
+    height:110,
+    paddingTop:30,
+    elevation:2,
+    backgroundColor:'#00b49f',
+    zIndex:2
   },
   textStyle:{
-      fontSize:20,
+      fontSize:24,
       color:'#ffffff',
+      
   },
   navbar:{
-    height:40,
-    width:40,
+    height:50,
+    width:50,
+    
   },
   search:{
-    height:40,
-    width:40,
+    height:50,
+    width:50,
+   
   }
 });
 
