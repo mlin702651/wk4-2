@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Image ,ScrollView} from "react-native";
 
+
 const Contain = props => {
     let { list } = props;
     return (
@@ -17,8 +18,8 @@ const Contain = props => {
                     <Text style={styles.p1}>{list.p1}</Text>
                     <Text style={styles.p2}>{list.p2}</Text>
                     <Text style={styles.process}>
-                        <Text style={styles.processHow}></Text>
                     </Text>
+                    <Text style={styles.processHow}></Text>
                     <Text style={styles.rate}>{CheckPercentage(list.rate)}</Text>
                 </View>
             </View>
@@ -33,7 +34,7 @@ const Contain = props => {
 function CheckPercentage(i) {
     console.log(i);
     if (i == 0) {
-        
+
         return ('start read');
     }
     else {
@@ -41,6 +42,7 @@ function CheckPercentage(i) {
         return (i + '% completed');
     }
 }
+
 const styles = StyleSheet.create({
     box: {
         flexDirection:'row',
@@ -110,6 +112,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#70b4a1',
         height:3,
         borderRadius:3,
+        marginTop:-12,
         marginBottom:9,
         width:97,
         zIndex:3

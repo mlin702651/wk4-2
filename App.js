@@ -4,11 +4,13 @@ import Header from './js/Header';
 import Contain from './js/Contain';
 import Containlist from './list.json';
 import Bottombar from './js/Bottombar';
+import Drawer from './js/Drawer';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Drawer />
       <Header />
       <FlatList
         data={Containlist}

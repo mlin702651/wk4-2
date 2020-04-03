@@ -19,12 +19,13 @@
         "p2":"Street art is colorful, vibrant, diverse and exciting.Now, you can create…",
         "rate":0,
         "image":"https://cdn.zeplin.io/5e6edfd117dbf813ddad315b/assets/529438FF-9636-488B-8664-AF61468DC473.png"
-    },{
-        "title":"Street Art Activity Book",
-        "p1":"Mitchell Beazley",
-        "p2":"Street art is colorful, vibrant, diverse and exciting.Now, you can create…",
-        "rate":0,
-        "image":"https://cdn.zeplin.io/5e6edfd117dbf813ddad315b/assets/529438FF-9636-488B-8664-AF61468DC473.png"
-    }
+    },
+    // {
+    //     "title":"Street Art Activity Book",
+    //     "p1":"Mitchell Beazley",
+    //     "p2":"Street art is colorful, vibrant, diverse and exciting.Now, you can create…",
+    //     "rate":0,
+    //     "image":"https://cdn.zeplin.io/5e6edfd117dbf813ddad315b/assets/529438FF-9636-488B-8664-AF61468DC473.png"
+    // }
     
 ]
